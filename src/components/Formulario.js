@@ -34,7 +34,7 @@ const Formulario = ({guardarGasto, guardarCrearGasto}) => {
         <form
             onSubmit={agregarGasto}
         >
-            <h2>Agrega tus Gastos aqui:</h2>
+            <h2>Agrega tus gastos aquí:</h2>
             {error ? <Error  mensaje= "Ambos campos son obligatorios"/> : null}
             <label>Nombre de Gasto</label>
             <div className="campo">
